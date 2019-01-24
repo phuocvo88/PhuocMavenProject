@@ -4,9 +4,10 @@ import PageObject.Homepage;
 import PageObject.loginPage;
 import PageObject.createAccountPage;
 import SeleniumUtils.SeleniumFunction;
+import org.testng.annotations.Test;
 
 public class TC_Home_Signup {
-
+    @Test
     public static void signUp(){
         SeleniumFunction.click(Homepage.btnLogin);
         SeleniumFunction.sendKey(loginPage.emailCreate, "testingPhuoc1@gmail.com");
@@ -48,7 +49,8 @@ public class TC_Home_Signup {
         String actualResult = SeleniumFunction.getCurrentUrl();
         String expectedResult = "http://automationpractice.com/index.php?controller=my-account";
         SeleniumFunction.assertEquals(actualResult,expectedResult);
-
+        System.out.println("current url: " + actualResult);
+        System.out.println("Sign up successful");
 
 
 
