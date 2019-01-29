@@ -9,22 +9,33 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import PageObject.createAccountForm;
-import PageObject.loginSignUpPage;
-import SeleniumUtils.SeleniumFunction;
+import dataobject.User;
+import pageobject.createAccountForm;
+import pageobject.loginSignUpPage;
+import seleniumutils.SeleniumFunction;
 
 public class SignUp {
+    static User usertest;
+
     @BeforeMethod
     public void beforeMethod() throws Exception {
         SeleniumFunction.openBrowser("firefox");
         SeleniumFunction.goToHomePage();
     }
 
-
+    private static void prepareData(){
+        usertest = new User();
+        usertest.setTitle("Mr.");
+        usertest.setFirtname("Phuoc");
+        usertest.setLastname("Vo");
+        usertest.setPassword("123456AA");
+        //set more data for full info
+    }
     @Test
     public static void signUpSuccess(){
         loginSignUpPage.goToSignUpform();
-        createAccountForm.fillSignUpForm();
+
+        createAccountForm.fillSignUpForm(usertest);
         loginSignUpPage.verifySignUpSuccess();
     }
 

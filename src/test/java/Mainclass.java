@@ -1,4 +1,4 @@
-import SeleniumUtils.SeleniumFunction;
+import seleniumutils.SeleniumFunction;
 
 
 public  class Mainclass {

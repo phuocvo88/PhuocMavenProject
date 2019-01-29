@@ -1,6 +1,6 @@
-package PageObject;
+package pageobject;
 
-import SeleniumUtils.SeleniumFunction;
+import seleniumutils.SeleniumFunction;
 import org.openqa.selenium.By;
 
 public class loginSignUpPage {

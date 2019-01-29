@@ -9,8 +9,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import PageObject.loginSignUpPage;
-import SeleniumUtils.SeleniumFunction;
+import pageobject.loginSignUpPage;
+import seleniumutils.SeleniumFunction;
 
 public class Login {
     String validUsername = "p.minh@aswhiteglobal.com";
