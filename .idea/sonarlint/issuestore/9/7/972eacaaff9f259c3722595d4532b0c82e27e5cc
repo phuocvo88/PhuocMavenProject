@@ -1,0 +1,18 @@
+
+Hsquid:S1444"1Make this "public static txtboxEmail" field final(³÷Øí
+Ksquid:S1444	"/Make this "public static txtboxPwd" field final(¸«ªùÿÿÿÿ
+Ksquid:S1444
+"/Make this "public static btnSubmit" field final(ãò§ûÿÿÿÿ
+Jsquid:S1444".Make this "public static errLogin" field final(Ú°Èüÿÿÿÿ
+Msquid:S1444"1Make this "public static emailCreate" field final(¾¤Ş‚ùÿÿÿÿ
+Nsquid:S1444"2Make this "public static submitCreate" field final(í¶ß×şÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"WMake txtboxEmail a static final constant or non-public and provide accessors if needed.(³÷Øí
+ˆ"squid:ClassVariableVisibilityCheck	"UMake txtboxPwd a static final constant or non-public and provide accessors if needed.(¸«ªùÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck
+"UMake btnSubmit a static final constant or non-public and provide accessors if needed.(ãò§ûÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"TMake errLogin a static final constant or non-public and provide accessors if needed.(Ú°Èüÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake emailCreate a static final constant or non-public and provide accessors if needed.(¾¤Ş‚ùÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheck"XMake submitCreate a static final constant or non-public and provide accessors if needed.(í¶ß×şÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ªóç‹ıÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªóç‹ıÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¬¢

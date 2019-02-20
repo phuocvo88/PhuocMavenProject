@@ -1,9 +1,9 @@
-package PageObject;
+package pageobject;
 
-import SeleniumUtils.SeleniumFunction;
+import seleniumutils.SeleniumFunction;
 import org.openqa.selenium.By;
 
-public class loginPage {
+public class loginSignUpPage {
 
     public static By txtboxEmail = By.id("email");
     public static By txtboxPwd = By.id("passwd");
@@ -22,26 +22,23 @@ public class loginPage {
     }
 
 
-    public static void SignInSuccess(){
+    public static void login(String username, String password){
         SeleniumFunction.click(Homepage.btnLogin);
-        SeleniumFunction.sendKey(loginPage.txtboxEmail,"p.minh@aswhiteglobal.com");
-        SeleniumFunction.sendKey(loginPage.txtboxPwd,"123456");
-        SeleniumFunction.click(loginPage.btnSubmit);
-
-        System.out.println("Log in successful");
-
+        SeleniumFunction.sendKey(loginSignUpPage.txtboxEmail,username);
+        SeleniumFunction.sendKey(loginSignUpPage.txtboxPwd,password);
+        SeleniumFunction.click(loginSignUpPage.btnSubmit);
     }
 
-
-    public static void SignInFailed(){
-        SeleniumFunction.click(Homepage.btnLogin);
-        SeleniumFunction.sendKey(loginPage.txtboxEmail,"fgter654v@aswhiteglobal.com");
-        SeleniumFunction.sendKey(loginPage.txtboxPwd,"ytrytrytr");
-        SeleniumFunction.click(loginPage.btnSubmit);
-
-        System.out.println("Log in Failed");
-
+    public static void verifyLoginSuccess(){
+        //using assert to verify
     }
 
+    public static void verifyLoginFailedWithInvalidUsernamePassword(){
+        //using assert to verify
+    }
 
+    public static void verifySignUpSuccess(){
+        //login with created account
+        //verify using assert
+    }
 }

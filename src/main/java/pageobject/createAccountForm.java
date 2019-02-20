@@ -1,6 +1,7 @@
-package PageObject;
+package pageobject;
 
-import SeleniumUtils.SeleniumFunction;
+import dataobject.User;
+import seleniumutils.SeleniumFunction;
 import org.openqa.selenium.By;
 
 
@@ -43,6 +44,14 @@ public class createAccountForm {
 
 
 
+    public static void fillSignUpForm(User user){
+        if (user.getTitle().equals("Mr.")) SeleniumFunction.click(genderMale);
+        SeleniumFunction.sendKey(firstNamebox, user.getFirtname());
+        SeleniumFunction.sendKey(lastNamebox, user.getLastname());
+        SeleniumFunction.sendKey(pwdbox, user.getPassword());
+        //... Input another fields
+    }
+    /*
     public static void fillSignUpForm(){
         //Put personal info
         //Title
@@ -104,7 +113,7 @@ public class createAccountForm {
 
 
     }
-
+*/
 
 
 
