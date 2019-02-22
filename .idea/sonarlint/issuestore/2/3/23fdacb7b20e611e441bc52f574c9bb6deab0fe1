@@ -1,0 +1,92 @@
+
+bsquid:S11924"FDefine a constant instead of duplicating this literal "Phuoc" 7 times.(´Á‘¾üÿÿÿÿ
+msquid:S3008"VRename this field "listDoB_day" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß††€
+tsquid:S3008"XRename this field "listDoB_month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÖ‰şùÿÿÿÿ
+nsquid:S3008"WRename this field "listDoB_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ßÎº
+ksquid:S3008"URename this field "optDoB_day" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¬/
+nsquid:S3008"WRename this field "optDoB_month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Åå­
+msquid:S3008"VRename this field "optDoB_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æš§ş
+xsquid:S3008"\Rename this field "address_firstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í£ëÀüÿÿÿÿ
+wsquid:S3008"[Rename this field "address_lastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àİ¹Ğüÿÿÿÿ
+vsquid:S3008"ZRename this field "address_company" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œõ§àøÿÿÿÿ
+qsquid:S3008"ZRename this field "address_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ááÊ
+nsquid:S3008 "WRename this field "address_city" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÍ•Ä
+nsquid:S3008!"XRename this field "address_state" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¦Ô#
+wsquid:S3008""[Rename this field "address_stateOtp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïî³¬ÿÿÿÿÿ
+wsquid:S3008#"[Rename this field "address_postcode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯îÂ•ÿÿÿÿÿ
+vsquid:S3008$"ZRename this field "address_country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á±±ˆûÿÿÿÿ
+wsquid:S3008%"aRename this field "address_additionalInfo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á×±R
+ssquid:S3008&"\Rename this field "address_homephone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó£¬ÿ
+zsquid:S3008'"^Rename this field "address_mobilephone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¾øÿÿÿÿ
+vsquid:S3008("_Rename this field "address_aliasAddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÖÑ†
+Gsquid:S1444	"0Make this "public static genderMale" field final(öÁÍö
+Nsquid:S1444
+"2Make this "public static genderFemale" field final(¸şÃâıÿÿÿÿ
+Nsquid:S1444"2Make this "public static firstNamebox" field final(ÒµƒÂşÿÿÿÿ
+Gsquid:S1444"1Make this "public static lastNamebox" field final(ã€Q
+Dsquid:S1444"-Make this "public static emalbox" field final(ëµ’
+Ksquid:S1444"/Make this "public static randomNum" field final(ŒÈÔ†ıÿÿÿÿ
+Msquid:S1444"1Make this "public static randomEmail" field final(€œ¸ùÿÿÿÿ
+Csquid:S1444",Make this "public static pwdbox" field final(‰Ÿ£
+Hsquid:S1444"1Make this "public static listDoB_day" field final(ß††€
+Osquid:S1444"3Make this "public static listDoB_month" field final(ıÖ‰şùÿÿÿÿ
+Isquid:S1444"2Make this "public static listDoB_year" field final(°ßÎº
+Fsquid:S1444"0Make this "public static optDoB_day" field final(‡¬/
+Isquid:S1444"2Make this "public static optDoB_month" field final(§Åå­
+Hsquid:S1444"1Make this "public static optDoB_year" field final(Æš§ş
+Tsquid:S1444"8Make this "public static subcribeNewsletter" field final(‰œÔùÿÿÿÿ
+Osquid:S1444"9Make this "public static receiveSpecialOffer" field final(Ö·Š?
+Ssquid:S1444"7Make this "public static address_firstName" field final(Í£ëÀüÿÿÿÿ
+Rsquid:S1444"6Make this "public static address_lastName" field final(Àİ¹Ğüÿÿÿÿ
+Qsquid:S1444"5Make this "public static address_company" field final(œõ§àøÿÿÿÿ
+Lsquid:S1444"5Make this "public static address_address" field final(¦ááÊ
+Isquid:S1444 "2Make this "public static address_city" field final(ÈÍ•Ä
+Isquid:S1444!"3Make this "public static address_state" field final(œ¦Ô#
+Rsquid:S1444""6Make this "public static address_stateOtp" field final(ïî³¬ÿÿÿÿÿ
+Rsquid:S1444#"6Make this "public static address_postcode" field final(¯îÂ•ÿÿÿÿÿ
+Qsquid:S1444$"5Make this "public static address_country" field final(á±±ˆûÿÿÿÿ
+Rsquid:S1444%"<Make this "public static address_additionalInfo" field final(Á×±R
+Nsquid:S1444&"7Make this "public static address_homephone" field final(ó£¬ÿ
+Usquid:S1444'"9Make this "public static address_mobilephone" field final(ê¾øÿÿÿÿ
+Qsquid:S1444(":Make this "public static address_aliasAddress" field final(¼ÖÑ†
+Rsquid:S1444)"6Make this "public static btnSubmitAccount" field final(‰±¬ıÿÿÿÿ
+bsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(­Ï¢Ğ
+T
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ü²’ûıÿÿÿÿ
+T
+squid:S106g"9Replace this use of System.out or System.err by a logger.(øÅß§ÿÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck	"VMake genderMale a static final constant or non-public and provide accessors if needed.(öÁÍö
+‹"squid:ClassVariableVisibilityCheck
+"XMake genderFemale a static final constant or non-public and provide accessors if needed.(¸şÃâıÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheck"XMake firstNamebox a static final constant or non-public and provide accessors if needed.(ÒµƒÂşÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"WMake lastNamebox a static final constant or non-public and provide accessors if needed.(ã€Q
+"squid:ClassVariableVisibilityCheck"SMake emalbox a static final constant or non-public and provide accessors if needed.(ëµ’
+ˆ"squid:ClassVariableVisibilityCheck"UMake randomNum a static final constant or non-public and provide accessors if needed.(ŒÈÔ†ıÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake randomEmail a static final constant or non-public and provide accessors if needed.(€œ¸ùÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"RMake pwdbox a static final constant or non-public and provide accessors if needed.(‰Ÿ£
+…"squid:ClassVariableVisibilityCheck"WMake listDoB_day a static final constant or non-public and provide accessors if needed.(ß††€
+Œ"squid:ClassVariableVisibilityCheck"YMake listDoB_month a static final constant or non-public and provide accessors if needed.(ıÖ‰şùÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck"XMake listDoB_year a static final constant or non-public and provide accessors if needed.(°ßÎº
+ƒ"squid:ClassVariableVisibilityCheck"VMake optDoB_day a static final constant or non-public and provide accessors if needed.(‡¬/
+†"squid:ClassVariableVisibilityCheck"XMake optDoB_month a static final constant or non-public and provide accessors if needed.(§Åå­
+…"squid:ClassVariableVisibilityCheck"WMake optDoB_year a static final constant or non-public and provide accessors if needed.(Æš§ş
+‘"squid:ClassVariableVisibilityCheck"^Make subcribeNewsletter a static final constant or non-public and provide accessors if needed.(‰œÔùÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"_Make receiveSpecialOffer a static final constant or non-public and provide accessors if needed.(Ö·Š?
+"squid:ClassVariableVisibilityCheck"]Make address_firstName a static final constant or non-public and provide accessors if needed.(Í£ëÀüÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"\Make address_lastName a static final constant or non-public and provide accessors if needed.(Àİ¹Ğüÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"[Make address_company a static final constant or non-public and provide accessors if needed.(œõ§àøÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"[Make address_address a static final constant or non-public and provide accessors if needed.(¦ááÊ
+†"squid:ClassVariableVisibilityCheck "XMake address_city a static final constant or non-public and provide accessors if needed.(ÈÍ•Ä
+†"squid:ClassVariableVisibilityCheck!"YMake address_state a static final constant or non-public and provide accessors if needed.(œ¦Ô#
+"squid:ClassVariableVisibilityCheck""\Make address_stateOtp a static final constant or non-public and provide accessors if needed.(ïî³¬ÿÿÿÿÿ
+"squid:ClassVariableVisibilityCheck#"\Make address_postcode a static final constant or non-public and provide accessors if needed.(¯îÂ•ÿÿÿÿÿ
+"squid:ClassVariableVisibilityCheck$"[Make address_country a static final constant or non-public and provide accessors if needed.(á±±ˆûÿÿÿÿ
+"squid:ClassVariableVisibilityCheck%"bMake address_additionalInfo a static final constant or non-public and provide accessors if needed.(Á×±R
+‹"squid:ClassVariableVisibilityCheck&"]Make address_homephone a static final constant or non-public and provide accessors if needed.(ó£¬ÿ
+’"squid:ClassVariableVisibilityCheck'"_Make address_mobilephone a static final constant or non-public and provide accessors if needed.(ê¾øÿÿÿÿ
+"squid:ClassVariableVisibilityCheck("`Make address_aliasAddress a static final constant or non-public and provide accessors if needed.(¼ÖÑ†
+"squid:ClassVariableVisibilityCheck)"\Make btnSubmitAccount a static final constant or non-public and provide accessors if needed.(‰±¬ıÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(»Ò€Œ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Ò€Œ
+Esquid:S2140")Use "java.util.Random.nextInt()" instead.(ŒÈÔ†ıÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¬¢
