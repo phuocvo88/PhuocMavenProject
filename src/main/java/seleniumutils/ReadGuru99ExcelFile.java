@@ -10,11 +10,13 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReadGuru99ExcelFile {
 
-    public void readExcel(String filePath,String fileName,String sheetName) throws IOException {
-
+    public List<String> readExcel(String filePath, String fileName, String sheetName) throws IOException {
+        List<String> list = new ArrayList<String>();
         //Create an object of File class to open xlsx file
 
         File file =    new File(filePath+"\\"+fileName);
@@ -56,7 +58,7 @@ public class ReadGuru99ExcelFile {
         //Find number of rows in excel file
 
         int rowCount = guru99Sheet.getLastRowNum()-guru99Sheet.getFirstRowNum();
-
+        list =  new ArrayList<String>();
         //Create a loop over all the rows of excel file to read it
 
         for (int i = 0; i < rowCount+1; i++) {
@@ -69,17 +71,18 @@ public class ReadGuru99ExcelFile {
 
                 //Print Excel data in console
                 row.getCell(j).setCellType(CellType.STRING);
+                list.add(row.getCell(j).getStringCellValue());
 
-
-                System.out.print(row.getCell(j).getStringCellValue()+"|| ");
-
-
+                //System.out.print(row.getCell(j).getStringCellValue()+"|| ");
 
             }
 
             System.out.println();
+
         }
 
+        System.out.println("list items: " + list);
+        return list;
     }
 
 }
